@@ -67,12 +67,11 @@ span{
 img{
     display: block;
     width: auto;
-    height: 400px;
+    height: 500px;
     float: right;
     flex-wrap: wrap;
-    margin-top: -270px;
+    margin-top: -250px;
 }
-
 
 .body{
     display: flex;
@@ -98,6 +97,5 @@ img{
     padding: 20px;
     display: flex;
     justify-content: right;
-
     height: 40px;
 }
