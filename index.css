@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Sans serif';
+
+}
+
+.header{
+    background-color: #131922;
+    color: aliceblue;
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+
+}
+
+.header-container{
+
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 20px;
+    
+}
+
+.main{
+    background-color: rgb(11, 28, 50);
+    color: white;
+    height: 680px;
+
+    padding: 150px;
+    align-items: center;
+}
+
+.introduction{
+    
+    width: 700px;   
+}
+
+.introduction h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.introduction h3{
+    font-size: 30px;
+    color: rgb(0, 98, 255);
+}
+
+.introduction p{
+    font-size: 20px;
+}
+
+.introduction .download{
+    width: 500px;
+    height: 50px;
+
+}
+
+span{
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    width: auto;
+    height: 400px;
+    float: right;
+    flex-wrap: wrap;
+    margin-top: -270px;
+}
+
+
+.body{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    height: 400px;
+}
+
+.whatido{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description{
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+
+    height: 40px;
+}
